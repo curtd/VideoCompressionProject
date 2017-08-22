@@ -59,8 +59,8 @@
 
 ## Compression
 - Description: Additional compression mode - lowers quality for still parts of the scene
-- Type: Categorical (Unordered)
-- Values: 'Off' or 'On'
+- Type: Categorical (Ordered)
+- Values: 'Off','Low','Medium','High'
 
 ## KbpsLimit
 - Description: (kilobits per second) - user set maximum bitrate
@@ -104,7 +104,7 @@
 ## Test
 - Description: Type of test - correlation with camera parameter fields
 - Type: Categorical (Unordered)
-- Values: Base, Idle, Compression
+- Values: Base, Idle, Compression, HDR
 
 ## Detail
 - Description: Low detail - easy to compress, lower bitrate
@@ -115,4 +115,4 @@
 ## Motion
 - Description: Low motion - easy to compress, lower bitrate
 - Type: Categorical (Ordered)
-- Values: none, low, high 
+- Values: none, low, high
