@@ -111,7 +111,6 @@
 - Type: Categorical (Ordered)
 - Values: low, medium, high
 
-
 ## Motion
 - Description: Low motion - easy to compress, lower bitrate
 - Type: Categorical (Ordered)
